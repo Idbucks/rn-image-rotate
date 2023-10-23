@@ -45,10 +45,10 @@ public class ImageRotateModule extends ReactContextBaseJavaModule {
     private static final List<String> LOCAL_URI_PREFIXES = Arrays.asList(
             "file://", "content://");
 
-    private static final String TEMP_FILE_PREFIX = "ReactNative_rotated_image_";
+    private static final String TEMP_FILE_PREFIX = "RN_rotated_image_";
 
     /** Compress quality of the output file. */
-    private static final int COMPRESS_QUALITY = 90;
+    private static final int COMPRESS_QUALITY = 100;
 
     @SuppressLint("InlinedApi") private static final String[] EXIF_ATTRIBUTES = new String[] {
             ExifInterface.TAG_APERTURE,
